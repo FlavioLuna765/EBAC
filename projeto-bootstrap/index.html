@@ -7,6 +7,7 @@
     <title>Document</title>
     <!-- CSS only -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/custom.css">
 </head>
 <body>
 
@@ -33,7 +34,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-7 col-sm-12">
-                    <h1>Sobre nós</h1>
+
+                    <h2>Sobre Nós</h2>
+
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas neque dolorem pariatur fuga beatae eveniet, rem ad necessitatibus amet, aliquid minima temporibus illo quos saepe incidunt. Facilis temporibus delectus dolor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem nihil earum qui quis a et dignissimos ea cum, perspiciatis eos nesciunt, molestias ex! Dolore laboriosam deserunt provident iste amet incidunt. lo
                     </p>
@@ -46,19 +49,100 @@
         </div>
     </section>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-5 col-sm-12">Linha 1 - Coluna 1</div>
-            <div class="col-md-7 col-sm-12">Linha 1 - Coluna 2</div>
+    <section id="produtos">
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <h2>Produtos</h2>
+
+                    <div class="card">
+                        <img src="imagens/pexels-sharad-kachhi-3937174.jpg" alt="Imagem Exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">lorem ipsum dolor</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a class="btn btn-primary" href="#produto-1">ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="imagens/pexels-sharad-kachhi-3937174.jpg" alt="Imagem Exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a class="btn btn-primary" href="#produto-2">ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="imagens/pexels-sharad-kachhi-3937174.jpg" alt="Imagem Exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a class="btn btn-primary" href="#produto-3">ver produto</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
-        <div class="row">
-            <div class="col">Linha 2 - Coluna 1</div>
+    </section>
+
+    <section id="Contato">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <h2>Contato</h2>
+                    <p>Ficou interessado? Preencha os campos do formúlario para receber  uma cotação</p>
+                </div>
+                <div class="col">
+                    <form class="form">
+
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="nome" placeholder="digite seu nome " id="">
+                        </div>
+
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="email" placeholder="digite seu email" id="">
+                        </div>
+
+                        <div class="input-group">
+                            <textarea class="form-control" rows="6"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-lg btn-success">Solicitar cotação</button>
+
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="row">
-            <div class="col">Linha 3 - Coluna 1 </div>
-            <div class="col">Linha 3 - Coluna 2 </div>
-            <div class="col">Linha 3 - Coluna 3 </div>
+    </section>
+
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                </div>
+                <div class="modal-body">
+
+                    <table class="table">
+                        <th>
+                            <td>Tamanho</td>
+                            <td>Valor</td>
+                        </th>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+                    </table>
+            </div>
         </div>
+
     </div>
 
 
