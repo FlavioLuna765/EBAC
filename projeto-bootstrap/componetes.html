@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componentes bootstrap</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Logo</h1>
+                </div>    
+                <div class="col">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"><a class="nav-link active" href="./index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./index.html#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./index.html#produtos">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./index.html#contatos">Contatos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imagens/pexels-sharad-kachhi-3937174.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <div class="ratio ratio-21x9">
+                    <img src="imagens/pexels-thisisengineering-3861972.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="ratio ratio-21x9">
+                    <img src="imagens/pexels-thisisengineering-3862132.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    </div>
+
+    <div class="container">
+        <div class="bg-info clearfix">
+            <a name="" id="" class="btn btn-link float-start" href="#" role="button">Link</a>
+            <a name="" id="" class="link-danger float-start" href="#" role="button">Link</a>
+            <a name="" id="" class="link-warning float-start" href="#" role="button">Link</a>
+            <a name="" id="" class="link-dark float-start" href="#" role="button">Link</a>
+
+            <a name="" id="" class="btn btn-dark float-end" href="#" role="button">Link</a>
+            <a name="" id="" class="btn btn-light float-end" href="#" role="button">Link</a>
+
+        </div>
+
+    </div>
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var myCarousel = document.querySelector('#carouselExampleFade')
+        var carousel = new bootstrap.Carousel(myCarousel, {
+            pause: false,
+            interval: 6000
+        })
+
+    </script>
+    
+</body>
+</html>
